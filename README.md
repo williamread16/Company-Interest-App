@@ -11,7 +11,7 @@ git clone https://github.com/williamread16/Company-Interest-App.git
 pip install flask
 pip install flask-cors
 
-# Start Flask server
+# Start Flask server (wherever logic.py has saved to after cloning)
 python logic.py
 
 # Open app in brower at:
