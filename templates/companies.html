@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <title>Company Profile</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="/" class="nav__link" data-link>Home</a>
+    </nav>
+    <h1 id="companyName"></h1>
+    <p>Add notes below, for example: application deadlines, salary, or location details</p>
+    <div class="noteContainer">
+        <h2>Notes</h2>
+        <textarea type='text' id="note" placeholder="Enter note:"></textarea>
+        <button onclick="addNote()">Add</button>
+        <ul id="noteList"></ul>
+    </div>
+    <div id="app"></div>
+    <script type="module" src="/static/js/companyPage.js"></script>
+    <script>
+        const companyName = decodeURIComponent(window.location.pathname.split("/").pop());
+        document.getElementById("companyName").textContent = companyName;
+    </script>
+</body>
+</html>

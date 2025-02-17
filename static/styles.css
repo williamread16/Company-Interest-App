@@ -1,0 +1,65 @@
+body {
+    background-color: rgba(242, 239, 239, 0.929);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.navbar {
+    background: blue;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+}
+
+.navbar a {
+    color: white;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    text-align: center;
+}
+
+input {
+    width: 80%;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+button {
+    background-color: rgb(60, 58, 58);
+    color: white;
+    padding: 10px 10px;
+    margin-top: 4px;
+    border-radius: 5px;
+}
+
+#companyList li {
+    background: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#noteList li {
+    background: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

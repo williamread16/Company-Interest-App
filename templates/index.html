@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <title>Company Interest</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="/" class="nav__link" data-link>Home</a>
+    </nav>
+    <div class="container">
+        <h2>Company List</h2>
+        <input type="text" id="companyName" placeholder="Enter company name:">
+        <button onclick="addCompany()">Add</button>
+        <ul id="companyList"></ul>
+    </div>
+    
+    <div id="app"></div>
+    <script type="module" src="/static/js/index.js"></script>
+</body>
+</html>
